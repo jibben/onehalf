@@ -17,27 +17,27 @@ let g:colors_name="onehalfdark"
 let colors_name="onehalfdark"
 
 
-let s:black       = { "gui": "#282c34", "cterm": "236" }
-let s:red         = { "gui": "#e06c75", "cterm": "168" }
-let s:green       = { "gui": "#98c379", "cterm": "114" }
+let s:black       = { "gui": "#2a2a2a", "cterm": "235" }
+let s:red         = { "gui": "#e0606b", "cterm": "168" }
+let s:green       = { "gui": "#86d468", "cterm": "114" }
 let s:yellow      = { "gui": "#e5c07b", "cterm": "180" }
-let s:blue        = { "gui": "#61afef", "cterm": "75"  }
+let s:blue        = { "gui": "#509be6", "cterm": "75"  }
 let s:purple      = { "gui": "#c678dd", "cterm": "176" }
 let s:cyan        = { "gui": "#56b6c2", "cterm": "73"  }
-let s:white       = { "gui": "#dcdfe4", "cterm": "188" }
+let s:white       = { "gui": "#dadada", "cterm": "253" }
 
 let s:fg          = s:white
 let s:bg          = s:black
 
 let s:comment_fg  = { "gui": "#5c6370", "cterm": "241" }
-let s:gutter_bg   = { "gui": "#282c34", "cterm": "236" }
+let s:gutter_bg   = { "gui": "#2a2a2a", "cterm": "235" }
 let s:gutter_fg   = { "gui": "#919baa", "cterm": "247" }
 
 let s:cursor_line = { "gui": "#313640", "cterm": "237" }
 let s:color_col   = { "gui": "#313640", "cterm": "237" }
 
 let s:selection   = { "gui": "#474e5d", "cterm": "239" }
-let s:vertsplit   = { "gui": "#313640", "cterm": "237" }
+let s:vertsplit   = { "gui": "#cccccc", "cterm": "237" }
 
 
 function! s:h(group, fg, bg, attr)
@@ -150,7 +150,7 @@ call s:h("Structure", s:yellow, "", "")
 call s:h("Typedef", s:yellow, "", "")
 
 call s:h("Special", s:blue, "", "")
-call s:h("SpecialChar", s:fg, "", "")
+call s:h("SpecialChar", s:yellow, "", "")
 call s:h("Tag", s:fg, "", "")
 call s:h("Delimiter", s:fg, "", "")
 call s:h("SpecialComment", s:fg, "", "")
